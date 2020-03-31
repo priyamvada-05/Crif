@@ -1,4 +1,4 @@
-const express=require('express');
+const express=require('express')
 const mongoose = require('mongoose');
 const dataModel = require('./model/dataModel');
 //const excel = require('Book1.csv');
@@ -7,7 +7,7 @@ const fs = require('fs');
 const config=require('./config');
 var moment = require('moment');
 const routeData= require('./route/route');
-//const app= express();
+const app= express();
 const path=require('path');
 
 mongoose.connect(config.connection_string , {useNewUrlParser: true, useUnifiedTopology: true}).then((client)=>{
@@ -15,7 +15,6 @@ mongoose.connect(config.connection_string , {useNewUrlParser: true, useUnifiedTo
 		
 	
 		})
-app= express();
 app.use(express.json({ limit: '10MB' }));
 app.use('/api/v1/application', routeData);
 
