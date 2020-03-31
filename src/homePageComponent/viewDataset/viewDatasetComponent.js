@@ -43,7 +43,8 @@ class ViewDatasetComponent extends React.Component{
 		key.forEach((item)=>{
 			if(this.props.sampleData[item] !== null && this.props.sampleData[item] !== '' && item !== 'status' && 
 				item !== 'tableData' && item !== 'loadingGettingTableData'
-				&& item !== 'errorTableData'){
+				&& item !== 'errorTableData' && item !== 'errorTableData' && 'uploadData' && item !== 'loadingUploadData'
+				&& item !== 'errorUploadData'){
 
 				obj[item]=this.props.sampleData[item]
 			}
