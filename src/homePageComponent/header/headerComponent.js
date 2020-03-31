@@ -239,7 +239,7 @@ const HeaderComponent= (props)=> {
           <Link className='route' to= '/'>
           <Typography className={classes.title} variant="h5" noWrap>
           	<img src={RbcIcon} height='70px' width='auto'/>
-            CRIF
+            OIS Lite
           </Typography>
           </Link>
 
