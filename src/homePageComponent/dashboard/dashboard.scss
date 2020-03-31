@@ -1,0 +1,31 @@
+.dashboard{
+
+	.page{
+	height: 50vh;
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 50%, rgba(9,64,121,1) 100%, rgba(2,0,36,1) 100%);
+	}
+
+
+}
+
+
+
+@media (max-width: 868px){
+	.card{
+		display: none !important;
+	}
+	.box{
+		display: flex;
+		justify-content: center;
+		.icon{
+
+	}
+	}
+
+		.graph{
+			display: flex;
+			justify-content: center;
+
+	}
+}

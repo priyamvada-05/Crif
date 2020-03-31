@@ -1,0 +1,24 @@
+.view{
+	margin-top: 15vh;
+
+	.grid{
+		
+		width: 90vw;
+		margin: 0 auto;
+		
+
+		.item{
+			display: flex;
+			justify-content:  center !important;
+
+			.text{
+				padding-top: 10px;
+			}
+
+		}
+	}
+
+	.grid1{
+		margin: 10px auto;
+	}
+}
