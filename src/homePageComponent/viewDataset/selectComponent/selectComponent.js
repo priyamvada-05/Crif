@@ -54,7 +54,7 @@ const SelectComponent= (props) => {
   }
 
   return(
-      <div>
+      <div className='form'>
       {props.disabled?
 (      <FormControl disabled variant="outlined" className={classes.formControl}>
         <InputLabel htmlFor="outlined-age-native-simple">{props.lable}</InputLabel>
