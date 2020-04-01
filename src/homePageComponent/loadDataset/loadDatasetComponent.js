@@ -29,20 +29,17 @@ class LoadDatasetComponent extends React.Component{
 			  m: 0.5,
 			  border: 0.5,
 			  style: { width: '70vw'},
-			  Valuation_Profile: {
-				'SRT': ['CSA', 'SCSA'],
-				'FRT': ['CSA', 'SCSA'],
-				'CRT': ['BASE', 'NEW_TRADE', 'THETA']
+			Valuation_Profile: {
+				'B_LINE_1': ['PROFILE_1', 'PROFILE_2'],
+				'B_LINE_2': ['PROFILE_1', 'PROFILE_2'],
+				'B_LINE_3': ['PROFILE_3', 'PROFILE_4', "PROFILE_5"]
 			},
-			Dataset_Group: ['GRMLONMO', 'GRMESTMO', 'EODESTMO', 'EODLONFO1', 'EODLONMO'],
-			Business_Line: ['SRT', 'FRT', 'CRT'],
+			Dataset_Group: ['GROUP_1', 'GROUP_2'],
+			Business_Line: ['B_LINE_1', 'B_LINE_2', 'B_LINE_3'],
 			Dataset_Name: {
-				SRT: ['LONDON_CORE', 'LONDON_CORE_LMM', 'LONDON_NOTES', 'INFLATION', 'INFLATIONEST',
-						'LONDON_CORE_LADDER', 'LONDON_CORE_LMM_LADDER', 'LONDON_NOTES_LADDER',
-						'XCCY_SWAPS', 'XCCY_SWAPS_MINOR', 'XCCY_SWAPS_EXPR', 'XCCY_SWAPS_EXPR_MINOR'],
-				FRT: ['LONDONFLOW1', 'LONDONFLOW2', 'LONDONFLOW3', 'TOR1', 'TOR2', 'TOR3',
-						'TOREST1', 'TOREST2', 'TOREST3', 'TOREST1_LADDER', 'TOREST2_LADDER', 'TOREST3_LADDER'],
-				CRT: ['CVA', 'FVA', 'CVA_VMREG', 'FVA_VMREG', 'MC_CVA', 'MC_FVA', 'MC_CVA_VMREG', 'MC_FVA_VMREG']
+				B_LINE_1: ['DATASET_1', 'DATASET_1_LMM', 'DATASET_2'],
+				B_LINE_2: ['DATASET_FLOW1', 'DATASET_FLOW2', 'DATASET_FLOW3'],
+				B_LINE_3: ['DATASET_3', 'DATASET_4']
 			},
 			status: false
 		}

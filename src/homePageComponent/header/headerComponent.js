@@ -16,7 +16,7 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
-import RbcIcon from '../../assets/royalB1.png';
+import RbcIcon from '../../assets/icon.png';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import PropTypes from 'prop-types';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -238,8 +238,8 @@ const HeaderComponent= (props)=> {
 
           <Link className='route' to= '/'>
           <Typography className={classes.title} variant="h5" noWrap>
-          	<img src={RbcIcon} height='70px' width='auto'/>
-            OIS Lite
+          	<img src={RbcIcon} height='70px' width='auto' />
+            <span style={{marginLeft: '10px'}}>Sample DB</span>
           </Typography>
           </Link>
 

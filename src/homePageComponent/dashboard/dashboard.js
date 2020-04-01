@@ -5,7 +5,7 @@ import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import { makeStyles } from '@material-ui/core/styles';
-import RbcIcon from '../../assets/royalB1.png';
+import RbcIcon from '../../assets/icon.png';
 import Chart from "react-google-charts";
 import GaugeChart from '../graph/gaugeChartComponent';
 import GaugeChartCPU from '../graph/gaugeChartCPUComponent';
